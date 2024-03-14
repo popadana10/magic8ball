@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e09132;
+    background-image: url('fortune.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header {
+    background-color: #d5a05f; 
+    color: #fff6e2; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+header h1 {
+    font-size: 36px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin: 0; 
+}
+
+#button {
+    position: absolute; 
+    top: 450px; 
+    left: 640px; 
+    background-color: #e09132; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#button:hover {
+    background-color: #ffa333; 
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    display: flexbox;
+    justify-content: center;
+    left: 640px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #494336;
+}
